@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.food.api.dao.TasteDao">
+
+    <select id="findList" parameterType="com.food.api.dto.TasteDTO" resultType="com.food.api.dto.TasteDTO">
+        select
+        taste.*
+        from taste taste
+        <where>
+            <if test="id != null and id != ''">and taste.id = #{id}</if>
+            <if test="tasteName != null and tasteName != ''">and taste.taste_name like concat('%',#{tasteName},'%')</if>
+            <if test="createTime != null and createTime != ''">and taste.create_time = #{createTime}</if>
+        </where>
+        <if test="current != null and pageSize != null">
+            limit #{current},#{pageSize}
+        </if>
+    </select>
+
+    <select id="findPageCount" parameterType="com.food.api.dto.TasteDTO" resultType="java.lang.Integer">
+        select count(*) from taste taste
+        <where>
+            <if test="id != null and id != ''">and taste.id = #{id}</if>
+            <if test="tasteName != null and tasteName != ''">and taste.taste_name like concat('%',#{tasteName},'%')</if>
+            <if test="createTime != null and createTime != ''">and taste.create_time = #{createTime}</if>
+        </where>
+    </select>
+
+</mapper>

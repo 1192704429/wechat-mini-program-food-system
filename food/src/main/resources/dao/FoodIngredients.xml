@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.food.api.dao.FoodIngredientsDao">
+
+    <select id="findList" parameterType="com.food.api.dto.FoodIngredientsDTO" resultType="com.food.api.dto.FoodIngredientsDTO">
+        select
+        foodIngredients.*,ingredients.name,ingredients.type
+        from food_ingredients foodIngredients
+        left join ingredients ingredients on foodIngredients.ingredients_id = ingredients.id
+		left join foods foods on foodIngredients.food_id = foods.id
+        <where>
+            <if test="id != null and id != ''">and foodIngredients.id = #{id}</if>
+            <if test="foodId != null and foodId != ''">and foodIngredients.food_id = #{foodId}</if>
+            <if test="ingredientsId != null and ingredientsId != ''">and foodIngredients.ingredients_id = #{ingredientsId}</if>
+            <if test="createTime != null and createTime != ''">and foodIngredients.create_time = #{createTime}</if>
+            <if test="type != null">and ingredients.type = #{type}</if>
+            <if test="name != null and name != ''">and ingredients.name like concat('%',#{name},'%')</if>
+        </where>
+        <if test="current != null and pageSize != null">
+            limit #{current},#{pageSize}
+        </if>
+    </select>
+
+    <select id="findPageCount" parameterType="com.food.api.dto.FoodIngredientsDTO" resultType="java.lang.Integer">
+        select count(*) from food_ingredients foodIngredients
+        left join ingredients ingredients on foodIngredients.ingredients_id = ingredients.id
+		left join foods foods on foodIngredients.food_id = foods.id
+        <where>
+            <if test="id != null and id != ''">and foodIngredients.id = #{id}</if>
+            <if test="foodId != null and foodId != ''">and foodIngredients.food_id = #{foodId}</if>
+            <if test="ingredientsId != null and ingredientsId != ''">and foodIngredients.ingredients_id = #{ingredientsId}</if>
+            <if test="createTime != null and createTime != ''">and foodIngredients.create_time = #{createTime}</if>
+            <if test="type != null">and ingredients.type = #{type}</if>
+            <if test="name != null and name != ''">and ingredients.name like concat('%',#{name},'%')</if>
+        </where>
+    </select>
+
+</mapper>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.food.api.dao.NoticeDao">
+
+    <select id="findList" parameterType="com.food.api.dto.NoticeDTO" resultType="com.food.api.dto.NoticeDTO">
+        select
+        notice.*
+        from notice notice
+        <where>
+            <if test="id != null and id != ''">and notice.id = #{id}</if>
+            <if test="bannerImg != null and bannerImg != ''">and notice.banner_img = #{bannerImg}</if>
+            <if test="content != null and content != ''">and notice.content = #{content}</if>
+            <if test="info != null and info != ''">and notice.info = #{info}</if>
+            <if test="createTime != null and createTime != ''">and notice.create_time = #{createTime}</if>
+            <if test="title != null and title != ''">and notice.title like concat('%',#{title},'%')</if>
+            <if test="type != null">and notice.type = #{type}</if>
+        </where>
+        <if test="current != null and pageSize != null">
+            limit #{current},#{pageSize}
+        </if>
+    </select>
+
+    <select id="findPageCount" parameterType="com.food.api.dto.NoticeDTO" resultType="java.lang.Integer">
+        select count(*) from notice notice
+        <where>
+            <if test="id != null and id != ''">and notice.id = #{id}</if>
+            <if test="bannerImg != null and bannerImg != ''">and notice.banner_img = #{bannerImg}</if>
+            <if test="content != null and content != ''">and notice.content = #{content}</if>
+            <if test="info != null and info != ''">and notice.info = #{info}</if>
+            <if test="createTime != null and createTime != ''">and notice.create_time = #{createTime}</if>
+            <if test="title != null and title != ''">and notice.title like concat('%',#{title},'%')</if>
+            <if test="type != null">and notice.type = #{type}</if>
+        </where>
+    </select>
+
+</mapper>
