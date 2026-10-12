@@ -98,99 +98,99 @@ class 用户登录注册,首页展示,美食广场,美食详情,美食盲盒,美
 
 个人信息修改 支持用户查看并确认修改后的个人信息（姓名、头像），点击按钮提交修改
 
-![docs/images/01-https.png](docs/images/01-https.png)
+![个人信息修改 支持用户查看并确认修改后的个人信息（姓名、头像），点击按钮提交修改](docs/images/01-ge-ren-xin-xi-xiu-gai-zhi-ch.png)
 
 **美食（餐饮）服务模块**
 
 美食展示与服务入口首页 展示最新美食信息，提供订餐、堂食预定入口，支持通过底部导航切换功能模块
 
-![docs/images/02-https.png](docs/images/02-https.png)
+![美食展示与服务入口首页 展示最新美食信息，提供订餐、堂食预定入口，支持通过底部导航切换功能模块](docs/images/02-mei-shi-zhan-shi-yu-fu-wu-ru.png)
 
 **美食广场模块**
 
 美食内容展示与浏览 支持美食关键词搜索、菜系分类筛选，展示用户发布的美食内容（含图片、名称、发布者信息），提供底部导航切换功能模块
 
-![docs/images/03-https.png](docs/images/03-https.png)
+![美食内容展示与浏览 支持美食关键词搜索、菜系分类筛选，展示用户发布的美食内容（含图片、名称、发布者信息），提供底部导航切换功能模块](docs/images/03-mei-shi-nei-rong-zhan-shi-yu.png)
 
 **用户个人中心模块**
 
 用户个人中心页面 展示用户发布的内容（含审核状态），提供编辑个人资料、删除/编辑发布内容、切换发布/点赞/收藏视图等操作入口
 
-![docs/images/04-https.png](docs/images/04-https.png)
+![用户个人中心页面 展示用户发布的内容（含审核状态），提供编辑个人资料、删除/编辑发布内容、切换发布/点赞/收藏视图等操作入口](docs/images/04-yong-hu-ge-ren-zhong-xin-ye-.png)
 
 用户个人中心内容管理与信息展示 展示用户个人信息（头像、昵称），提供编辑资料、设置功能入口；管理用户发布、点赞、收藏的内容，当前可查看并删除点赞的内容
 
-![docs/images/05-https.png](docs/images/05-https.png)
+![用户个人中心内容管理与信息展示 展示用户个人信息（头像、昵称），提供编辑资料、设置功能入口；管理用户发布、点赞、收藏的内容，当前可查看并删除点赞的内容](docs/images/05-yong-hu-ge-ren-zhong-xin-nei.png)
 
 **餐饮推荐模块、公告通知模块、底部导航模块**
 
 首页内容展示与导航入口 展示推荐餐饮内容（菜品卡片）、发布公告通知（含活动/福利信息），提供底部导航（首页、美食、餐盒、我的）切换入口
 
-![docs/images/06-https.png](docs/images/06-https.png)
+![首页内容展示与导航入口 展示推荐餐饮内容（菜品卡片）、发布公告通知（含活动/福利信息），提供底部导航（首页、美食、餐盒、我的）切换入口](docs/images/06-shou-ye-nei-rong-zhan-shi-yu.png)
 
 **美食内容管理**
 
 修改美食信息 编辑并提交美食的名称、类别、口味、封面图片、简介、详情、食材及图片集等相关信息
 
-![docs/images/07-https.png](docs/images/07-https.png)
+![修改美食信息 编辑并提交美食的名称、类别、口味、封面图片、简介、详情、食材及图片集等相关信息](docs/images/07-xiu-gai-mei-shi-xin-xi-bian-.png)
 
 **美食盲盒业务模块**
 
 美食盲盒展示与操作入口页面 展示带有问号标识的美食盲盒视觉模型，提供盲盒相关功能（如开启盲盒）的视觉引导，底部导航栏支持切换至首页、美食、我的等模块
 
-![docs/images/08-https.png](docs/images/08-https.png)
+![美食盲盒展示与操作入口页面 展示带有问号标识的美食盲盒视觉模型，提供盲盒相关功能（如开启盲盒）的视觉引导，底部导航栏支持切换至首页、美食、我的等模块](docs/images/08-mei-shi-mang-he-zhan-shi-yu-.png)
 
 **美食详情模块**
 
 展示美食详情 展示美食的名称、原料（主料、辅料、调料）、发布者、发布时间、口味标签，提供点赞、收藏功能，以及食材分类查看入口
 
-![docs/images/09-https.png](docs/images/09-https.png)
+![展示美食详情 展示美食的名称、原料（主料、辅料、调料）、发布者、发布时间、口味标签，提供点赞、收藏功能，以及食材分类查看入口](docs/images/09-zhan-shi-mei-shi-xiang-qing-.png)
 
 展示美食详情及评论互动 提供美食的详细制作步骤、配菜信息，支持用户查看、发表、回复、删除评论
 
-![docs/images/10-https.png](docs/images/10-https.png)
+![展示美食详情及评论互动 提供美食的详细制作步骤、配菜信息，支持用户查看、发表、回复、删除评论](docs/images/10-zhan-shi-mei-shi-xiang-qing-.png)
 
 **用户运营模块（新用户注册福利公告）**
 
 展示新用户注册福利公告详情 向用户展示新用户注册活动的具体福利信息，包括注册赠券、首单立减、积分加倍、会员特权等内容
 
-![docs/images/11-https.png](docs/images/11-https.png)
+![展示新用户注册福利公告详情 向用户展示新用户注册活动的具体福利信息，包括注册赠券、首单立减、积分加倍、会员特权等内容](docs/images/11-zhan-shi-xin-yong-hu-zhu-ce-.png)
 
 **用户账号管理**
 
 密码修改 提供旧密码、新密码、重复新密码的输入区域，通过点击确认修改按钮完成密码修改操作
 
-![docs/images/12-https.png](docs/images/12-https.png)
+![密码修改 提供旧密码、新密码、重复新密码的输入区域，通过点击确认修改按钮完成密码修改操作](docs/images/12-mi-ma-xiu-gai-ti-gong-jiu-mi.png)
 
 **美食盲盒模块**
 
 美食盲盒抽奖与推荐 用户可选择配料、配菜、口味，点击「盲盒抽奖」按钮获取推荐美食，同时展示美食推荐内容
 
-![docs/images/13-https.png](docs/images/13-https.png)
+![美食盲盒抽奖与推荐 用户可选择配料、配菜、口味，点击「盲盒抽奖」按钮获取推荐美食，同时展示美食推荐内容](docs/images/13-mei-shi-mang-he-chou-jiang-y.png)
 
 美食盲盒抽奖（食材组合推荐） 支持用户选择主食材、配菜、口味，通过“盲盒抽奖”生成推荐美食（或随机生成符合条件的美食）
 
-![docs/images/14-https.png](docs/images/14-https.png)
+![美食盲盒抽奖（食材组合推荐） 支持用户选择主食材、配菜、口味，通过“盲盒抽奖”生成推荐美食（或随机生成符合条件的美食）](docs/images/14-mei-shi-mang-he-chou-jiang-s.png)
 
 美食盲盒抽奖与推荐展示 提供食材标签、配菜选项、口味选项，支持用户选择后触发盲盒抽奖，同时展示美食推荐内容
 
-![docs/images/15-https.png](docs/images/15-https.png)
+![美食盲盒抽奖与推荐展示 提供食材标签、配菜选项、口味选项，支持用户选择后触发盲盒抽奖，同时展示美食推荐内容](docs/images/15-mei-shi-mang-he-chou-jiang-y.png)
 
 **食材管理模块**
 
 食材选择 支持食材搜索、已选食材展示及可选食材勾选操作，用于选择或管理食材
 
-![docs/images/16-https.png](docs/images/16-https.png)
+![食材选择 支持食材搜索、已选食材展示及可选食材勾选操作，用于选择或管理食材](docs/images/16-shi-cai-xuan-ze-zhi-chi-shi-.png)
 
 **用户认证模块**
 
 用户登录 用户输入账号和密码，点击登录按钮完成身份验证以获取系统访问权限
 
-![docs/images/17-https.png](docs/images/17-https.png)
+![用户登录 用户输入账号和密码，点击登录按钮完成身份验证以获取系统访问权限](docs/images/17-yong-hu-deng-lu-yong-hu-shu-.png)
 
 用户注册 提供账号注册功能，包含账号、密码、确认密码输入项，注册操作按钮及已有账号登录跳转入口
 
-![docs/images/18-https.png](docs/images/18-https.png)
+![用户注册 提供账号注册功能，包含账号、密码、确认密码输入项，注册操作按钮及已有账号登录跳转入口](docs/images/18-yong-hu-zhu-ce-ti-gong-zhang.png)
 
 ### 管理后台
 
@@ -212,59 +212,59 @@ class 用户登录注册,首页展示,美食广场,美食详情,美食盲盒,美
 
 食材信息管理 支持食材信息的查询（按名称、类型筛选）、添加、删除操作，提供分页浏览食材列表的功能
 
-![docs/images/19-https.png](docs/images/19-https.png)
+![食材信息管理 支持食材信息的查询（按名称、类型筛选）、添加、删除操作，提供分页浏览食材列表的功能](docs/images/19-shi-cai-xin-xi-guan-li-zhi-c.png)
 
 **美食小程序的口味管理模块**
 
 口味信息管理（增删改查+分页） 实现口味信息的查询、添加、修改、删除操作，支持分页浏览口味数据
 
-![docs/images/20-https.png](docs/images/20-https.png)
+![口味信息管理（增删改查+分页） 实现口味信息的查询、添加、修改、删除操作，支持分页浏览口味数据](docs/images/20-kou-wei-xin-xi-guan-li-zeng-.png)
 
 **用户管理模块**
 
 用户信息管理（列表展示与操作） 展示用户列表，支持按用户名搜索、重置、刷新，可执行添加、删除用户操作，对单个用户可修改信息，提供分页浏览功能
 
-![docs/images/21-https.png](docs/images/21-https.png)
+![用户信息管理（列表展示与操作） 展示用户列表，支持按用户名搜索、重置、刷新，可执行添加、删除用户操作，对单个用户可修改信息，提供分页浏览功能](docs/images/21-yong-hu-xin-xi-guan-li-lie-b.png)
 
 **美食管理模块下的分类管理子模块**
 
 美食分类管理 对美食分类信息进行查询、新增、修改、删除及分页展示管理
 
-![docs/images/22-https.png](docs/images/22-https.png)
+![美食分类管理 对美食分类信息进行查询、新增、修改、删除及分页展示管理](docs/images/22-mei-shi-fen-lei-guan-li-dui-.png)
 
 **美食管理模块**
 
 美食评价管理 提供美食评价的查看、删除、搜索筛选、分页浏览等功能，支持对评价数据的管理操作
 
-![docs/images/23-https.png](docs/images/23-https.png)
+![美食评价管理 提供美食评价的查看、删除、搜索筛选、分页浏览等功能，支持对评价数据的管理操作](docs/images/23-mei-shi-ping-jia-guan-li-ti-.png)
 
 **公告管理模块**
 
 公告信息修改 对已存在的公告进行编辑，可修改公告标题、公告简介、上传/替换公告图片、编辑公告详细内容
 
-![docs/images/24-https.png](docs/images/24-https.png)
+![公告信息修改 对已存在的公告进行编辑，可修改公告标题、公告简介、上传/替换公告图片、编辑公告详细内容](docs/images/24-gong-gao-xin-xi-xiu-gai-dui-.png)
 
 公告信息管理 支持对公告信息进行查询、新增、修改、删除操作，展示公告的编号、标题、简介、图片、内容预览、所属分类及创建时间等信息
 
-![docs/images/25-https.png](docs/images/25-https.png)
+![公告信息管理 支持对公告信息进行查询、新增、修改、删除操作，展示公告的编号、标题、简介、图片、内容预览、所属分类及创建时间等信息](docs/images/25-gong-gao-xin-xi-guan-li-zhi-.png)
 
 **后台管理系统登录模块**
 
 用户身份认证（登录） 提供用户名和密码输入入口，验证用户身份以授权访问系统
 
-![docs/images/26-https.png](docs/images/26-https.png)
+![用户身份认证（登录） 提供用户名和密码输入入口，验证用户身份以授权访问系统](docs/images/26-yong-hu-shen-fen-ren-zheng-d.png)
 
 **美食小程序-食材管理模块**
 
 食材信息管理 支持食材信息的查询、新增、修改、删除操作，提供分页查看功能
 
-![docs/images/27-https.png](docs/images/27-https.png)
+![食材信息管理 支持食材信息的查询、新增、修改、删除操作，提供分页查看功能](docs/images/27-shi-cai-xin-xi-guan-li-zhi-c.png)
 
 **美食管理模块（美食小程序后台管理）**
 
 美食信息管理与食材关联管理 管理美食的基本信息（编号、名称、分类、口味等），支持对美食记录的查询、添加、修改、删除操作，可管理关联食材，查看美食状态及详情，具备搜索、分页功能
 
-![docs/images/28-https.png](docs/images/28-https.png)
+![美食信息管理与食材关联管理 管理美食的基本信息（编号、名称、分类、口味等），支持对美食记录的查询、添加、修改、删除操作，可管理关联食材，查看美食状态及详情，具备搜索、分页功能](docs/images/28-mei-shi-xin-xi-guan-li-yu-sh.png)
 
 ## 五、主要业务流程
 
